@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:experimental
-ARG ZM_VERSION=master
+ARG ZM_VERSION=1.36.32
 ARG S6_ARCH=x86_64
 
 #####################################################################
