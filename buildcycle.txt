@@ -1,0 +1,3 @@
+docker build . --network=host --no-cache --tag=ghcr.io/rich0/zoneminder-base:test
+docker tag ghcr.io/rich0/zoneminder-base:test ghcr.io/rich0/zoneminder-base:1.36.32
+docker push ghcr.io/rich0/zoneminder-base:1.36.32
